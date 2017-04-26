@@ -11,7 +11,7 @@ TOPICS
 * Design Pattern
    <dl> 
    
-   <dt>####Mvvm</dt>  
+   <dt>MVVM</dt>  
    <dt>Model-View-ViewModel </dt> 
    <dd>is an architecural approach used to abstract the state and behaviour of a view, which allows us to separate the development of the UI from the business logic. This is accomplished by the introduction of a ViewModel, whos responsibility is to expose the data objects of a model and handle any of the applications logic involved in the display of a view.
    </dd>
@@ -22,8 +22,8 @@ TOPICS
    <dt>Model : </dt>
    <dd>abstracts the data source. The ViewModel works with the DataModel to get and save the data.Data model containing business and validation logic</dd>
    <dl>
-   ####MVP
-   ####Observer
+   <dt>MVP</dt>  
+   <dt>Onserver</dt>  
    
 * RxAndroid
 * Databinding (including 2 way data binding)
