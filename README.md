@@ -7,5 +7,15 @@ TOPICS
     * Retrofit
     * VOlley
     * AsyncTask
+
+* Design Pattern
+   * Mvvm
+   * MVP
+   * Observer
+   
+* RxAndroid
+* Databinding (including 2 way data binding)
+* EventBus
+* Consurency
    
  
