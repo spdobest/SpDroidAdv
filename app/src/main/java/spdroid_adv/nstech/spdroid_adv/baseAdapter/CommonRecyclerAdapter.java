@@ -3,13 +3,12 @@ package spdroid_adv.nstech.spdroid_adv.baseAdapter;
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.view.ViewGroup;
-import android.widget.ListView;
 
 import java.util.List;
 
 import spdroid_adv.nstech.spdroid_adv.common.ParentViewHolder;
 import spdroid_adv.nstech.spdroid_adv.common.ViewHolderManager;
-import spdroid_adv.nstech.spdroid_adv.mvvm.model.User;
+import spdroid_adv.nstech.spdroid_adv.mvvmWithoutDataBinding.model.User;
 import spdroid_adv.nstech.spdroid_adv.viewHOlders.UserViewHolder;
 
 /**

@@ -1,4 +1,4 @@
-package spdroid_adv.nstech.spdroid_adv.mvvm;
+package spdroid_adv.nstech.spdroid_adv.mvvmWithoutDataBinding;
 
 import android.content.Context;
 import android.os.Handler;
@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Observable;
 
 import spdroid_adv.nstech.spdroid_adv.baseAdapter.CommonRecyclerAdapter;
-import spdroid_adv.nstech.spdroid_adv.mvvm.model.User;
+import spdroid_adv.nstech.spdroid_adv.mvvmWithoutDataBinding.model.User;
 
 /**
  * Created by webwerks on 26/4/17.

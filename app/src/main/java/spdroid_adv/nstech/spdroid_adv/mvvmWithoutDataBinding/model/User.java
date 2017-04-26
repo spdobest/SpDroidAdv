@@ -1,4 +1,4 @@
-package spdroid_adv.nstech.spdroid_adv.mvvm.model;
+package spdroid_adv.nstech.spdroid_adv.mvvmWithoutDataBinding.model;
 
 import java.util.List;
 

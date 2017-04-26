@@ -6,7 +6,7 @@ import android.widget.LinearLayout;
 
 import spdroid_adv.nstech.spdroid_adv.R;
 import spdroid_adv.nstech.spdroid_adv.common.ParentViewHolder;
-import spdroid_adv.nstech.spdroid_adv.mvvm.model.User;
+import spdroid_adv.nstech.spdroid_adv.mvvmWithoutDataBinding.model.User;
 
 /**
  * Created by webwerks on 26/4/17.

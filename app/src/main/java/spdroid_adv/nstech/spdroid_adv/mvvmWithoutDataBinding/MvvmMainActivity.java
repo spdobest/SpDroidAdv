@@ -1,4 +1,4 @@
-package spdroid_adv.nstech.spdroid_adv.mvvm;
+package spdroid_adv.nstech.spdroid_adv.mvvmWithoutDataBinding;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
