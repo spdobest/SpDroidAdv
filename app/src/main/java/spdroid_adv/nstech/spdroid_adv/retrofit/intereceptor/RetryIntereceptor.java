@@ -15,34 +15,9 @@ import okhttp3.Response;
  */
 
 public class RetryIntereceptor implements Interceptor {
+
     @Override
-    public Response intercept(Chain chain)
-            throws IOException {
-        OkHttpClient client = new OkHttpClient();
-        client.setConnectTimeout(/*CONNECT_TIMEOUT_MILLIS*/12331, TimeUnit.MILLISECONDS);
-        client.setReadTimeout(READ_TIMEOUT_MILLIS, TimeUnit.MILLISECONDS);
-        client.interceptors().add(new Interceptor() {
-            @Override
-            public Response intercept(Chain chain) throws IOException {
-                Request request = chain.request();
-
-                // try the request
-                Response response = chain.proceed(request);
-
-                int tryCount = 0;
-                while (!response.isSuccessful() && tryCount < 3) {
-
-                    Log.d("intercept", "Request is not successful - " + tryCount);
-
-                    tryCount++;
-
-                    // retry the request
-                    response = chain.proceed(request);
-                }
-
-                // otherwise just pass the original response on
-                return response;
-            }
-        });
+    public Response intercept(Chain chain) throws IOException {
+        return null;
     }
 }
