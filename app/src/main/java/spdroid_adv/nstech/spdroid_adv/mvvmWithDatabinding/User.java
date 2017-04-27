@@ -9,7 +9,25 @@ public class User extends BaseObservable {
  
     private String name;
     private String email;
- 
+    private boolean isActive;
+    private String address;
+
+    public boolean isActive() {
+        return isActive;
+    }
+
+    public void setActive(boolean active) {
+        isActive = active;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
     public String getName() {
         return name;
     }
