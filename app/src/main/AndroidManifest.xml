@@ -3,6 +3,8 @@
     package="spdroid_adv.nstech.spdroid_adv">
 
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
@@ -14,21 +16,21 @@
         android:name=".mvvmWithDatabinding.app.DataBindingApplication"
         >
          <activity android:name=".mvvmWithDatabinding.MvvmActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name="spdroid_adv.nstech.spdroid_adv.mvvmWithDatabinding.activity.MainActivity"
-            android:label="@string/app_name"
-            android:screenOrientation="portrait">
             <!--<intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>-->
+        </activity>
+        <activity
+            android:name="spdroid_adv.nstech.spdroid_adv.mvvmWithDatabinding.activity.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity android:name="spdroid_adv.nstech.spdroid_adv.mvvmWithDatabinding.activity.BookDetailsActivity"/>
         <activity android:name=".base.BaseActivity" />

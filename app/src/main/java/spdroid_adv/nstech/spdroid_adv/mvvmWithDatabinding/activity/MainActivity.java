@@ -59,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         BindingActivityMainBinding activityMainBinding = DataBindingUtil.setContentView(this, R.layout.binding_activity_main);
+      //  activityMainBinding.setActivity(this);
         ButterKnife.bind(this);
         mSearchResultsRecyclerView = (RecyclerView) findViewById(R.id.search_results_recycler_view);
         mSearchResultsRecyclerView.setLayoutManager(new LinearLayoutManager(this));
